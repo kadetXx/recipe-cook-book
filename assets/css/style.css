@@ -358,7 +358,9 @@ footer {
   }
 
   #top-section {
-    padding-bottom: 9rem;
+    height: 95vh;
+    /* padding-bottom: 6rem;
+    padding-bottom: 9rem; */
   }
 
   .feature-box {
