@@ -102,6 +102,10 @@ body {
   background-color: transparent;
   color:  #ff7a59;
   border-color: #ff7a59;
+
+  /* background-color: #0FCF81;
+  color: white;
+  border-color: white; */
 }
 
 
@@ -177,10 +181,130 @@ body {
 }
 
 .icon-list-box .feature-list-text h4, .feature-list-icon {
-  color: #FF7A59
+  color: #3F3D56;
 }
 
 .icon-list-box .feature-list-text p {
   font-size: 0.9rem;
+  color: #3F3D56;
+}
+
+/************** EMAIL FORM SECTION STYLES **************/
+
+#sponsors {
+  padding: 5% 10%;
+}
+
+.email-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-box h1 {
+  color: #3F3D56
+}
+
+.sponsor-img-row {
+  display: flex;
+  justify-content: center;
+}
+
+.sponsor-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.sponsor-img-row img.flutterwave-img {
+  width: 50%;
+  position: relative;
+  right: 10%;
+}
+
+.sponsor-img-row img.hotels-img {
+  width: 40%;
+  position: relative;
+  left: 10%;
+}
+
+.sponsored-img-row {
+  display: flex;
+  justify-content: center;
+}
+
+.sponsored-img-row .google-img {
+  width: 40%;
+  margin-top: -5%;
+}
+
+/************** TESTIMONIAL SECTION STYLES **************/ 
+
+#testimonials {
+  padding: 10% 10%;
+  background-color: #FEF6EF;
+}
+
+.testimonial-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-head h2 {
+  color: #3F3D56;
+}
+
+.testimonial-head .sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.testimonial-head p {
+  color: rgb(105, 104, 104);
+}
+
+.testimonial-head .divider {
+  display: inline-block;
+  width: 20%;
+  height: 1px;
+  background-color: rgb(105, 104, 104);
+  color: rgb(105, 104, 104);;
+  position: relative;
+  bottom: 6px;
+  margin: 0 1%;
+  opacity: 0.5;
+}
+
+.carousel-inner .user-img {
+  border-radius: 50%;
+  max-width: 100px;
+  text-align: center;
+  margin: 5% 0
+}
+
+.carousel-inner .testimony-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.carousel-inner .testimony-text-box p {
+  padding: 1% 20%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  background: none;
+  color: #3F3D56;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
   color: #3F3D56;
 }
