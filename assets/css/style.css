@@ -192,7 +192,7 @@ body {
 /************** SPONSORS SECTION STYLES **************/
 
 #sponsors {
-  padding: 5% 10%;
+  padding: 10% 10%;
 }
 
 .sponsors-box {
@@ -454,13 +454,17 @@ footer {
   .footer-text {
     justify-content: center;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.6rem;
   }
 
   .footer-icons {
     display: flex;
     justify-content: center;
     font-size: 1.3rem;
+  }
+
+  footer {
+    padding: 1rem 10%;
   }
   
 }
