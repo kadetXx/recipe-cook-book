@@ -299,6 +299,8 @@ body {
 
 .carousel-inner .testimony-text-box p {
   padding: 1% 20%;
+  color: rgb(105, 104, 104);
+  line-height: 2;
 }
 
 .carousel-control-prev, .carousel-control-next {
