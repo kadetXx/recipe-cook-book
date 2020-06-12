@@ -303,6 +303,10 @@ body {
   line-height: 2;
 }
 
+.carousel-inner .testimony-text-box h3 {
+  color: #3F3D56;
+}
+
 .carousel-control-prev, .carousel-control-next {
   background: none;
   color: #3F3D56;
